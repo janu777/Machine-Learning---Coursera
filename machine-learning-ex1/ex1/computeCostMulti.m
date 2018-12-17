@@ -10,13 +10,13 @@ predictions=X*theta; %hypothesis
 % You need to return the following variables correctly 
 J = 0;
 k = predictions-y;
-J = (1/(2*m))*sum(k.^2);
+
 % ====================== YOUR CODE HERE ======================
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
 
-
+J = (1/(2*m))*sum(k.^2);
 
 
 % =========================================================================
